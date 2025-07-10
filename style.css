@@ -94,3 +94,38 @@ body {
 .uk h1{
     color: #4E47FF;
 }
+
+
+/*..........review............*/
+.review{
+    display: flex;
+    align-items: center;
+    width: 740px;
+    margin: 10px 100px;
+    margin-top: 60px;
+    gap: 10px;
+}
+.box-1{
+    width: 350px;
+    /* height: 200px; */
+    background-color: rgb(255,255,255,0.5);
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(242,242,237);
+}
+.star{
+    display: flex;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar .da{
+    border-radius: 10px;
+    color:rgb(37, 36, 50, 0.5) ;
+}
+.avatar ,img{
+    border-radius: 50px;
+   
+}
