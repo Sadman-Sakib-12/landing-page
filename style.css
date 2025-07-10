@@ -1,59 +1,96 @@
-
 /*..........header style..........*/
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.main{
+
+.main {
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     height: 400px;
 }
-.containar{
+
+.containar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 90px ;
+    margin: 0px 90px;
 }
-.logo h1{
-    color:#4E47FF;
-    font-family:inherit;
+
+.logo h1 {
+    color: #4E47FF;
+    font-family: inherit;
 }
-.up{
+
+.up {
     background-color: #4E47FF;
     border-radius: 10px;
     padding: 10px 25px;
     border: none;
-    color:white;
+    color: white;
 }
-.banner{
+
+.banner {
     text-align: center;
-    margin-top:150px;
+    margin-top: 150px;
     margin: 0 auto;
     width: 600px;
 }
-.banner h1{
-    color:#252432;
+
+.banner h1 {
+    color: #252432;
     font-size: 50px;
     font-weight: 600;
 }
 
 /*............action..........*/
 
-.action{
+.action {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     /* margin-top: 60px; */
     width: 740px;
     gap: 130px;
     margin: 100px 100px;
 }
-.see p{
-    color:rgb(37,36,50,0.5);
+
+.see p {
+    color: rgb(37, 36, 50, 0.5);
 }
-.web img{
+
+.web img {
     width: 300px;
     border-radius: 48px;
+}
+
+/*..............User..........*/
+.user {
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 740px;
+    margin: 10px 100px;
+    border-radius: 10px;
+}
+.user h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.uk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    font-size: 30px;
+    line-height: 1.10px;
+
+}
+.uk p{
+    font-size: 10px;
+}
+.uk h1{
+    color: #4E47FF;
 }
