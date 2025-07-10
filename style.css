@@ -129,3 +129,41 @@ body {
     border-radius: 50px;
    
 }
+
+/*............news...............*/
+.news{
+    display: flex;
+    align-items: center;
+    width: 740px;
+    margin: 10px 100px;
+    gap: 200px;
+}
+.let{
+    font-size: 40px;
+}
+.news-1 input{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(214,221,237);
+    background-color: rgba(255,255,255);
+}
+.news-1 .full-name
+ {
+    border: none;
+    padding: 60px 20px;
+    padding-top: 10px;
+    border: 1px solid rgb(214,221,237);
+    background-color: rgba(255,255,255);
+    border-radius: 5px;
+}
+
+.get{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 15px 70px;
+}
+
