@@ -75,6 +75,7 @@ body {
 .user {
     background-color: rgba(78, 71, 255, 0.1);
     width: 780px;
+    height: 180px;
     margin: 10px 100px;
     border-radius: 10px;
 }
@@ -206,6 +207,7 @@ img {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 780px;
+    height: 400px;
     margin: 10px 100px;
     text-align: center;
 }
@@ -226,9 +228,14 @@ img {
 
 /*..................footer.............*/
 .foot {
-    width: 780px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
     text-align: center;
-    margin: 10px 100px;
+    margin-top: 100px;
+}
+.fo{
+    padding-top: 20px;
 }
 
 .lo h1 {
@@ -244,18 +251,18 @@ img {
     color: rgb(137, 135, 161);
 }
 
-.fot ul {
+.fo ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-.fot ul {
+.fo ul {
     list-style: none;
 }
 
-.fot ul li a {
+.fo ul li a {
     text-decoration: none;
     color: #8987A1;
 }
